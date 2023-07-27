@@ -252,14 +252,20 @@ a{
     background-color: black;
     align-items: center;
     width: 100%;
+    color: #f1f1f1;
+    padding-top: 2vw;
+    padding-left: 7vw;
+    font-size: 2vw;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 3px 4px rgba(225, 180, 180, 0.25);
 }
 video{
     position: relative;
-    left: 5%;
+    left: 0vw;
     align-items: center;
-    padding-left: 0px;
-    width:90%;
-    height:600px;
+    padding-left: 10vw;
+    width:80vw;
+    height:30vw;
 }
 /* ----------PRODUCTS code here---------------- */
 #Gallery{
@@ -504,6 +510,10 @@ ul>li{
         font-size: 5vw;
         margin: 10vw;
     }
+    .desc{
+        font-size: 3vw;
+    }
+    
   }
   @media screen and (max-width: 400px){
 
@@ -511,6 +521,5 @@ ul>li{
         justify-content: right;
         padding-left: 0%;
         padding-right: 0%;
-        
     }
   }
