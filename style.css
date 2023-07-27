@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap');
+
+*{  
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#header-img{
+    height: 1%;
+    width: 2%;
+    margin-left: 6%;
+    margin-top: 0.5%;
+}
+#header-img1{
+    color: white;
+    font-size: 2.5vw;
+    position: absolute;
+    left: 10%;
+    top: 2vw;
+    font-family: 'Poltawski Nowy', serif;
+    text-shadow: 1px 1px 1px rgb(73, 73, 73);
+}
+#nav-bar{
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 1%;
+    left: 60%;
+    height: 55px;
+    width: 80px;
+    z-index: 1000;
+}
+/* ---------menu icon code-------- */
+
+.menubut{
+    height: 10%;
+    width: 8%;
+    text-align: left;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+    float: right;
+    position: relative;
+    padding: 1%;
+    margin-top: -8%;
+    margin-right: 5%;
+    cursor: pointer;
+
+}
+.contmenu{
+    background-color: #5c5c5c;
+    padding: 0%;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menuic{
+    height: 70%;
+    width: 100%;
+    cursor: pointer;
+}
+.menubut {
+    position: relative;
+    display: none;
+  }
+  .contmenu>a{
+    padding: 12px 16px;
+    display: none;
+  }
+  
+  .contmenu a:hover {background-color: #f1f1f1; color: black;}
+  .menuicon:hover .contmenu>a {display: block;}
+/* ---------code end----------- */
+.nav-link{
+    height: 35px;
+    text-shadow: 1px 2px 2px rgb(86, 41, 41);
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'Lato', sans-serif;
+    font-weight: lighter;
+}
+.n1{
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    padding-top: 12px;
+    width: 400px;
+}
+.n2{
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-left: 35px;
+}
+.n3{
+    position: relative;
+    padding: 10px;
+    left: 90px;
+    padding-top: 12px;
+    padding-right: 30px;
+}
+/* ---------home code */
+.home{
+    margin: 0%;
+    text-align: center;
+    height: 50vw;
+    width: 100%;
+    font-size: 90%;
+}
+.darkback{
+    background-image: url("static/bghome.jpeg");
+    filter: brightness(35%);
+    height: 50vw;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.texthand{
+    font-size: 7vw;
+    color: white;
+    position: relative;
+    top: 4vw;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 4px 4px 4px rgb(52, 44, 44);
+}
+.tha{
+    color: rgb(255, 170, 43);
+}
+#form{
+    position: relative;
+    top: 10px;
+}
+.th1{
+    color: rgb(255, 211, 145);
+    text-shadow: 2px 2px 2px black;
+    font-size: 3vw;
+    position: relative;
+    top: 2vw;
+    margin: 3vw;
+    padding: 3vw;
+    font-family: 'Dancing Script', cursive;
+}
+.th2{
+    color: white;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 4vw;
+    position: relative;
+    margin: 2vw;
+    padding: 1vw;
+    font-family: 'Zilla Slab', serif;
+}
+.th3{
+    display: none;
+    font-family: 'Zilla Slab', serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 4vw;
+    margin: 2vw;
+    padding: 1vw;
+    position: relative;
+    left: 10vw;
+}
+.homebutton{
+    padding: 0.5vw 1.5vw;
+    font-size: 2vw;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px 1px grey;
+    color: white;
+    background-color: darkorange;
+    border-radius: 20px;
+    border: 2px solid darkorange;
+    position: relative;
+    left: 0%;
+}
+.homebutton:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 7px rgb(39, 39, 39) ;
+}
+/* ------------------Home tab code completed---------------------------- */
+/* ------------------Code For Features----------------------- */
+#Features{
+    display: flexbox;
+    margin: 1vw 1% 20px 1%;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    top: 40%;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    width: 80%;
+    height: 55%;
+}
+.imgf{
+    height: 100%;
+    width: 15%;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 30px 10px;
+}
+.f2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10% 30px 10px;
+}
+.f3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10% 10px;
+}
+.desc{
+    margin: 30px;
+    position: relative;
+    left: 0%;
+    width: 90%;
+    font-size: 2vw;
+}
+.f2>.desc{
+    margin: 0;
+    position: relative;
+    left: 4vw;
+}
+.f3>.desc{
+    position: relative;
+    left: 0%;
+}
+/* ----------Video css Starts here------- */
+#About{
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+video{
+    position: relative;
+    left: 5%;
+    align-items: center;
+    padding-left: 0px;
+    width:90%;
+    height:600px;
+}
+/* ----------PRODUCTS code here---------------- */
+#Gallery{
+    background-color: rgba(171, 137, 99, 0.694); 
+    padding: 20px 4vw;
+    z-index: -10px;
+    height: 100%;
+}
+.progrid{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 2vw;
+}
+.imgp{
+    height: 25vw;
+    padding: 1vw;
+    width: auto;
+    margin: 1vw;
+    background-color: whitesmoke;
+}
+.imgp:hover{
+    transform: scale(1.05);
+}
+.headp{
+    color: white;
+    font-size: 7vw;
+    position: relative;
+    left: 3vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallink{
+    position: relative;
+    top: 0;
+    left: 20vw;
+    margin-left: 15vw;
+    padding: 0.5vw 1.5vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(112, 46, 46);
+    color: white;
+    background-color: darkorange;
+    border-radius: 40px;
+    border: 2px solid darkorange;
+    box-shadow: 1px 1px 1px rgb(109, 28, 28);
+}
+/* -----------social code ---------*/
+.social{
+    position: relative;
+}
+/* -----------adding background boxes  */
+.anotherbox1{
+    position: absolute;
+    background-color: rgb(126, 24, 24);
+    transform: rotate(3deg);
+    height: 80px;
+    z-index: 2;
+    width: 81%;
+}
+.anotherbox2{
+    position: absolute;
+    left: 18.5%;
+    background-color: rgb(160, 76, 20);
+    transform: rotate(-3deg);
+    height: 80px;
+    z-index: 2;
+    width: 81%;
+}
+
+/* ---------------buy part--------- */
+.buy{
+    text-align: center;
+    background-color: rgb(56, 6, 6);
+    color: wheat;
+    padding: 20px 10px 50px 5px;
+    z-index: 200;
+    position: relative;
+}
+.buy>h3>a{
+    color: wheat;
+    align-items: center;
+}
+.buy>.con{
+    position: relative;
+    top: 10px;
+    font-size: 2vw;
+}
+.insta{
+    height: 3vw;
+    position: relative;
+    top: 5px;
+    left: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    filter: brightness(50%);
+}
+.mail{
+    height: 3vw;
+    position: relative;
+    top: 5px;
+    left: 3vw;
+    filter: brightness(50%);
+}
+.icons{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 30vw;
+    margin-left: 5vw;
+    padding: 10px 4vw;
+    align-items: center;
+    width: 20%;
+} 
+.pin{
+    height: 3vw;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    left: 5vw;
+    filter: brightness(50%);
+}
+.face{
+    height: 3vw;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    left: 7vw;
+    filter: brightness(50%);
+}
+.face:hover{
+    filter: brightness(100%);
+}
+.pin:hover{
+    filter: brightness(100%);
+}
+.mail:hover{
+    filter: brightness(100%);
+}
+.insta:hover{
+    filter: brightness(100%);
+}
+/* adding buying part details */
+#endpart{
+    background-color: rgb(124, 65, 14);
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: #C8B6A6;
+}
+/* ----------adding footer style-------------- */
+footer{
+    background-color: rgb(244, 191, 167);
+    height: 100px;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    right: 43px;
+    justify-content: right;
+}
+ul>li{
+    display: flex;
+    padding: 10px;
+}
+.footercontent> h5{
+    font-size: 100%;
+    color:#5c5c5c;
+    font-weight: 10px;
+    position: relative;
+    left: -5%;
+    top: 0%;
+    padding: 0px ;
+    float: right;
+}
+
+/* -------adding media query------------ */
+
+@media screen and (max-width: 800px) and (min-width: 549px){
+    #nav-bar{
+        display: none;
+        left: 40%;
+        font-size: 70%;
+        /* justify-content: center; */
+        padding-left: 0%;
+    }
+    .nav-link{
+        padding-left: 12%;
+        padding-right: 18%;
+    }
+    .th2{
+        display: none;
+    } 
+    .th3{
+        display: flex;
+    } 
+}
+@media screen and (max-width:550px){
+    #nav-bar{
+        font-size: 0%;
+    }
+    .menubut{
+        display: block;
+    }
+    .menuic{
+        display: block;
+    }
+    #header-img{
+        width:5%;
+    }
+    #header-img1{
+        text-transform:inherit;
+        font-size: 8vw;
+        top: 1vw;
+        left: 13vw;
+        padding-top: 1.5%;
+    }
+    .contmenu{
+        display: block;
+    }
+    .home{
+        height: 100vw;
+    }
+    .texthand{
+        font-size: 10vw;
+    }
+    .th1{
+        font-size: 6vw;
+    }
+    .th3{
+        font-size: 20vw;
+    }
+    .darkback{
+        height: 100vw;
+    }
+    .homebutton{
+        font-size: 5vw;
+        margin: 10vw;
+    }
+  }
+  @media screen and (max-width: 400px){
+
+    .footercontent>h5{
+        justify-content: right;
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }
+  }
